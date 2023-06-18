@@ -1,0 +1,107 @@
+.header__notify {
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    width: 350px;
+    right: 0;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: default;
+    transform-origin: calc(100% - 32px) top;
+    animation: headerNotifyGrowth ease-in 0.2s;
+    will-change: animation, transform;
+  }
+  .header__notify::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -16px;
+    width: 90px;
+    height: 20px;
+  }
+  
+  @keyframes headerNotifyGrowth {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .header__notify-header {
+    height: 40px;
+    background-color: var(--white-color);
+    user-select: none;
+  }
+  
+  .header__notify-header h3 {
+    color: #242424;
+    margin: 0 0 0 12px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+  }
+  .header__notify-list {
+    max-height: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+    padding-left: 0;
+  }
+  .header__notify-item {
+    display: flex;
+  }
+  .header__notify-item:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .header__notify-item--viewed {
+    background-color: rgba(238, 75, 43, 0.08);
+  }
+  .header__notify-link {
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+    width: 100%;
+  }
+  .header__notify-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .header__notify-info {
+    margin-left: 12px;
+  }
+  .header__notify-name {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .header__notify-description {
+    display: block;
+    font-size: 14px;
+    color: #3f3f3f;
+    margin-top: -3px;
+  }
+  .header__notify-time{
+    color: rgb(105, 105, 105);
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 2px;
+  }
+  .header__notify-footer-btn {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10px 0;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+  }

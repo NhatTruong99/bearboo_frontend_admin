@@ -1,0 +1,51 @@
+.noti{
+    max-height: 230px;
+}
+.noti-icon .badge{
+    right:0px
+}
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+   
+  .box {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 70vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 30px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .sidebar-menu-active{
+    color: #1976d2 !important;
+  }
+  .header__logo-img{
+    width: 170px;
+    border:none;
+    margin-top:12px;
+  } 

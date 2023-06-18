@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.login-title{
+    margin-bottom: 20px;
+}
+.input-password{
+    position: relative;
+}
+.icon-eye{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.errMess{
+    color: #e82034;
+    margin-top:-5px;
+}
+.mess-error{
+    color: #e82034;
+    text-align: left;
+}
+
+.background {
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(180deg, rgb(8, 88, 175), #fff);
+    background-repeat:no-repeat;
+    height: 100vh;
+    padding-top: 100px
+}
+
+button:focus {
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+.card-noty{
+    border-radius:0;
+    width: calc(475px + 10 * ((100vw - 320px) / 680)) ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8) ;
+}
+
+.card-header{
+    background-color:#14b539 !important;
+    color: #fff;
+}
+.title-noty{
+    color: #fff
+}
+.img-noty{
+    width: 180px !important;
+}
+
+
+.inner li {
+    list-style-type: disc !important;
+} 
+
+.fa-check-circle{
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    color: #fff;
+}
+
+

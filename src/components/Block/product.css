@@ -1,0 +1,107 @@
+img{
+    border-radius: 3px;
+    border: 1px solid rgba(149, 147, 147, 0.5);
+}
+.mess-error{
+    color: #e82034;
+    font-size: 0.8rem;
+}
+tr.no-border td {  
+    border: 0;
+  }
+.btn{
+    cursor: pointer;
+}
+.ql-editor{
+    min-height:200px;
+}
+.home-product__pagination {
+    margin: 40px 0 32px 0;
+    padding-left: 0;
+  }
+  .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .pagination-item{
+    margin: 0 10px;
+  }
+  
+  .pagination-item--active .pagination-item__link{
+    color: #fff;
+    background-color: #0b74e5;
+  }
+  
+  .pagination-item--active .pagination-item__link:hover{
+    filter: brightness(110%);
+    text-decoration: none;
+  
+  }
+  .pagination-item .pagination-item__link:hover{
+    background-color: rgba(11, 116, 229,0.2);
+    text-decoration: none;
+  }
+  .pagination-item__link:disabled{
+    color: rgb(215, 215, 215);
+  }
+  .pagination-item__link{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    --height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #687487;
+    min-width: 40px;
+    height: var(--height);
+    display: block;
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+  }
+
+  .popup-title{
+    margin-top: -5px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .popup-item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .popup-item p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .popup-reason li{
+    list-style-type: none;
+  }
+  .popup-reason-list{
+    padding-left: 20px;
+  }
+  .popup-reason-title{
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 10px;
+    height: 35px;
+  }
+  .search-container i{
+    margin: 0 5px 0 10px;
+  }
+  .search-container input[type=text] {
+    border: none;
+    width: 100%;
+    outline: none;
+  }
