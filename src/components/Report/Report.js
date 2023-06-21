@@ -102,7 +102,7 @@ function Report() {
                   Người bán
                 </option>
                 <option key={2} value={2}>
-                  Người dùng
+                  Người mua
                 </option>
                 <option key={3} value={3}>
                   Sản phẩm
